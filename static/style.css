@@ -1,0 +1,57 @@
+body {
+    font-family: 'Georgia', serif;
+    background: #f9f5f0;
+    color: #333;
+    margin: 0;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fffaf0;
+    padding: 2rem;
+    border: 2px solid #bfa76f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #c1a95a88;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    width: 100%;
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #bfa76f;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #bfa76f;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9a7f45;
+}
+
+.review {
+    margin-top: 2rem;
+    background-color: #fff8dc;
+    border: 1px solid #bfa76f;
+    padding: 1rem;
+    border-radius: 4px;
+    white-space: pre-wrap;
+}
